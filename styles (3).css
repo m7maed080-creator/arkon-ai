@@ -1,0 +1,34 @@
+# ARKON AI Phase 2 — Vercel Ready
+
+نسخة ويب جاهزة للنشر على Vercel والعمل من أي متصفح.
+
+## النشر
+1. ارفع المجلد إلى GitHub.
+2. في Vercel اختر Add New Project.
+3. اربط مستودع GitHub.
+4. أضف متغيرات البيئة.
+5. اضغط Deploy.
+
+## متغيرات البيئة
+
+للتجربة:
+DATA_PROVIDER=mock
+
+للبيانات الحقيقية:
+DATA_PROVIDER=tradier
+TRADIER_TOKEN=ضع المفتاح داخل Vercel فقط
+TRADIER_BASE_URL=https://api.tradier.com/v1
+WATCHLIST=SPY,QQQ,NVDA,TSLA,AAPL,AMD,META,AMZN,MSFT,PLTR
+
+## الموجود
+- ماسح فرص
+- قوة الاتجاه
+- تمركز السيولة
+- Call/Put Volume
+- Institutional Score
+- Risk Score
+- No Trade Filter
+- الدخول والوقف والأهداف
+- تحديث تلقائي كل 30 ثانية
+
+مهم: لا تضع مفتاح API داخل ملفات public أو داخل GitHub.

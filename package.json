@@ -1,0 +1,17 @@
+# خطوات الرفع إلى Vercel
+
+1. أنشئ مستودع GitHub باسم arkon-ai.
+2. ارفع محتويات هذا المجلد.
+3. افتح Vercel وسجل الدخول بحساب GitHub.
+4. اختر Add New ثم Project.
+5. اختر المستودع arkon-ai.
+6. في Environment Variables أضف DATA_PROVIDER بقيمة mock.
+7. اضغط Deploy.
+8. بعد نجاح النشر ستحصل على رابط مباشر.
+
+بعد الحصول على مفتاح Tradier:
+- غيّر DATA_PROVIDER إلى tradier.
+- أضف TRADIER_TOKEN.
+- أعد النشر Redeploy.
+
+لا تشارك المفتاح في المحادثات أو الصور.
